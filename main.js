@@ -1,7 +1,7 @@
 
 
 const sx = ` <div class="append-items">
-                <div class="append-image"><img class="image-left" src="assets/img/illustration-features-tab-1.svg">
+                <div class="append-image"><img class="image-left" src="img/illustration-features-tab-1.svg">
                         <div class="back-left"></div>
                 </div>
                 <div class="append-text">
@@ -11,7 +11,7 @@ const sx = ` <div class="append-items">
                 </div>
             </div>`;
 const sy = ` <div class="append-items">
-                <div class="append-image"><img class="image-left" src="assets/img/illustration-features-tab-2.svg">
+                <div class="append-image"><img class="image-left" src="img/illustration-features-tab-2.svg">
                         <div class="back-left"></div>
                 </div>
                 <div class="append-text">
@@ -22,7 +22,7 @@ const sy = ` <div class="append-items">
                 </div>
             </div>`;
 const sz = `<div class="append-items">
-                <div class="append-image"><img class="image-left" src="assets/img/illustration-features-tab-3.svg">
+                <div class="append-image"><img class="image-left" src="img/illustration-features-tab-3.svg">
                         <div class="back-left"></div>
                 </div>
                 <div class="append-text">
