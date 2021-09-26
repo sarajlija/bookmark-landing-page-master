@@ -95,12 +95,28 @@ main {
 h1 {
   letter-spacing: 2px;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.8rem;
+}
+h2 {
 
+  font-size: 2.8rem;
+  font-weight: 500;
 }
 h3 {
 
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+@media (max-width:768px){
+  h3{
+    text-align: center;
+  }
+}
+
+p{
+  opacity: 0.7;
+  font-size: 1.15rem;
 }
 
 /*BOOKMARK SIMPLE////////////////////////////////////////////////////////*/
@@ -219,7 +235,7 @@ h3 {
     padding-bottom: 100px;
   }
   .col-text {
-          padding: 50px;
+     padding: 60px;
      /* margin-bottom: 145px;*/
       justify-content: center;
       display: flex;
@@ -229,7 +245,7 @@ h3 {
   }
   .bookmark-row {
     display: grid;
-    grid-template-rows: 45% auto;
+    grid-template-rows: 60% auto;
     grid-template-columns: auto;
     position: relative;
     height: fit-content;
@@ -239,7 +255,7 @@ h3 {
     height: 33%;
     background-color: hsl(231, 69%, 60%);
     position: absolute;   
-    bottom: 80px;
+    bottom: 33px;
     right: 0;
     z-index: -1;
     border-bottom-left-radius: 100px;
@@ -267,6 +283,7 @@ h3 {
   .bookmark-manager {
     margin-top: 80px;
   }
+ 
 .col-text {
   padding: 0;
   margin-bottom: 100px;
@@ -345,6 +362,7 @@ h3 {
     .append-items {   
       display: flex;
       flex-direction: column;
+      margin-top:0;
     }
     .append-image {
       display: flex;
@@ -390,6 +408,9 @@ h3 {
     height: 43%;
     
     }
+    .nav-change-items {
+      padding: 25px;
+  }
   }
   /*DOWNLOAD EXTENSION-------------------*/
 
@@ -545,6 +566,15 @@ h3 {
     font-size: 1rem;
     border: none;
     border-radius: 6px;
+  }
+  @media (max-width:768px) {
+    .questions {
+      
+      margin: 0 auto;
+      padding-top: 0;
+    }
+    
+  
   }
 
   /*SECTION CONTACT///////////////////////////////////////////*/
