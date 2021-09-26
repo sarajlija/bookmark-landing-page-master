@@ -57,7 +57,7 @@ current.classList.toggle("arrow-up");
 /////////////////SLIDER/////////
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log(itemOne.style.borderBottom = "2px solid hsl(0, 94%, 66%)");
-  ) 
+ 
 });
 
  window.scrollTo({
