@@ -57,7 +57,11 @@ current.classList.toggle("arrow-up");
 /////////////////SLIDER/////////
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log(itemOne.style.borderBottom = "2px solid hsl(0, 94%, 66%)");
-    console.log(html.style.borderTop = "0")
+  ) 
+});
+ window.scrollTo({
+   top: 0,
+   behavior: 'smooth'
 });
 const appendItems = document.querySelector(".append-items")
 const changeItems = document.getElementById("change-items")
