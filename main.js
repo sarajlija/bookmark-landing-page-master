@@ -59,6 +59,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     console.log(itemOne.style.borderBottom = "2px solid hsl(0, 94%, 66%)");
   ) 
 });
+//THIS  scrollTo METOD RETURN PAGE ON TOP AFTER SET in css file HTML {scroll-behavior:'smooth'}
  window.scrollTo({
    top: 0,
    behavior: 'smooth'
